@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    font-size: 30px;
+}
+.logo::first-letter{
+    font-size: 50px;
+    color: red;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 5px; */
+    padding:20px;
+    background-color:lightslategray;
+    color: white;
+    align-items: center;
+}
+.header ul li{
+    display: inline-block;
+}
+ul li a{
+text-decoration:  none;  
+color: white;
+margin: 5px; 
+font-size: 20px; 
+margin: 0px 10px;
+
+}
+ul li a:hover{
+    background-color: gray;
+    color: red;
+    font-size: 25px;
+}
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+button:hover{
+    background-color: gray;
+    color: white;
+
+}
+.background{
+    /* position: relative; */
+}
+.img{
+background-image: url('../static/images/background5.jpg');
+background-size: cover;
+height: 90vh;
+position:relative;
+}
+.img h1{
+    color:red;
+    position: absolute;
+    top: 300px;
+    left:550px;
+
+}
+.img p{
+    position: absolute;
+    top: 340px;
+    left: 550px;
+    color:white;
+}
+.h1{
+    text-align: center;
+}
+.services{
+    display:flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+
+}
+
+.box{
+    border: 2px solid teal;
+    padding: 10px;
+    border-radius: 5px 50px;
+    margin: 0px 10px;
+    box-shadow: 10px 10px #888;
+}
+
+.box ,h2,p{
+    text-align:center;
+}
+.box img{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.container3 h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: grey;
+    color: white;
+    size: 10px;
+    margin-top: 15px;
+
+}
+.btn:hover{
+    background-color:gray;
+    color:white;
+    
+}
+
+.container4{
+    display:grid;
+    grid-template-columns: auto auto;
+    border: 5px solid teal;
+    margin: 20px 0px;
+
+}
+.container4 form{
+    background-color:grey;
+    display: block;
+    width: 90%;
+    margin: 10px 50px;
+    border-radius: 5px 50px;
+    box-shadow: 8px 8px 5px black;
+}
+form input{
+    width: 90%;
+    padding: 20px;
+    margin: 30px;  
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px #888;
+}
+.container4 .btns{
+    width: 10%;
+    padding: 5px;
+    width: 40%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:lightslategray;
+     
+}
+
+.footer ul li{
+    margin: 10px 0px;
+    color:white;
+}
+
+.bx{
+    font-size: 30px;
+    color: white;
+}
+
+iframe{
+    filter: invert(100%);
+    width:700px;
+    height:430px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.map{
+    box-shadow: 8px 8px #888;
+}
